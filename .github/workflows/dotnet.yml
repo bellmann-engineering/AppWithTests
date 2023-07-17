@@ -27,7 +27,7 @@ jobs:
     - name: Build
       run: dotnet build AppWithTests/AppWithTests.csproj --no-restore
     - name: Test
-      run: dotnet test AppWithTestsTests/AppWithTestsTests.csproj --verbosity detailed
+      run: dotnet test AppWithTestsTests/AppWithTestsTests.csproj --verbosity normal
     
     - name: Archive Artifact
       uses: actions/upload-artifact@v2
