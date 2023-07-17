@@ -1,1 +1,1 @@
-[![AppWithTests](https://github.com/bellmann-engineering/AppWithTests/actions/workflows/dotnet.yml/badge.svg?branch=master)](https://github.com/bellmann-engineering/AppWithTests/actions/workflows/dotnet.yml)
+Status: [![AppWithTests](https://github.com/bellmann-engineering/AppWithTests/actions/workflows/dotnet.yml/badge.svg?branch=master)](https://github.com/bellmann-engineering/AppWithTests/actions/workflows/dotnet.yml)
