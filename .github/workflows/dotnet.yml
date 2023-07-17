@@ -25,9 +25,9 @@ jobs:
         dotnet restore AppWithTests/AppWithTests.csproj
         dotnet restore AppWithTestsTests/AppWithTestsTests.csproj
     - name: Build
-      run: dotnet build --runtime win-x64 AppWithTests/AppWithTests.csproj --no-restore
+      run: dotnet build AppWithTests/AppWithTests.csproj --no-restore
     - name: Test
-      run: dotnet test --runtime win-x64 AppWithTestsTests/AppWithTestsTests.csproj --verbosity normal
+      run: dotnet test AppWithTestsTests/AppWithTestsTests.csproj --verbosity normal
     
     - name: Archive Artifact
       uses: actions/upload-artifact@v2
